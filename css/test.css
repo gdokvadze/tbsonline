@@ -41,6 +41,6 @@ header.templhead .templcontent .templsubheading {
     font-size: 2rem;
   }
 
-section {
+/* section {
     background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-}
+} */
