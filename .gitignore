@@ -1,0 +1,14 @@
+node_modules
+/.vscode
+/img
+/vendor
+/scss
+/BingSiteAuth.xml
+/googlebfd4d5d65964e946.html
+/yandex_33727b369e07f59c.html
+/README.md
+/package.json
+/package-lock.json
+/LICENSE
+/.travis.yml
+/gulpfile.js
