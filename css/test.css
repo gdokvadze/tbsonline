@@ -1,0 +1,46 @@
+body {
+    font-family: 'Titillium Web';
+    /* background-color:rgb(65, 188, 245); */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Titillium Web';
+    font-weight: 100 !important;
+  }
+
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+  }
+
+header.templhead {
+    position: relative;
+    padding-top: calc(3rem + 42px);
+    padding-bottom: 3rem;
+    background: linear-gradient(0deg, rgb(65, 188, 245) 0%, rgb(125, 108, 245) 100%);
+}
+
+header.templhead .templcontent {
+    z-index: 1;
+    position: relative;
+}
+
+header.templhead .templcontent .templheading {
+    font-size: 3rem;
+  }
+
+header.templhead .templcontent .templsubheading {
+    font-size: 2rem;
+  }
+
+section {
+    background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+}
