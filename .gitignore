@@ -1,6 +1,7 @@
 node_modules
 /.vscode
 /img
+/icons
 /vendor
 /scss
 /BingSiteAuth.xml
