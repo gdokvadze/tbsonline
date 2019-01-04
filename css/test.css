@@ -1,6 +1,11 @@
 body {
-    font-family: 'Titillium Web';
+    /* font-family: 'Titillium Web'; */
     /* background-color:rgb(65, 188, 245); */
+    /* background: linear-gradient(0deg, rgb(65, 188, 245) 0%, rgb(192, 230, 252) 100%); */
+    background: linear-gradient(0deg, rgb(192, 230, 252) 0%, rgb(65, 188, 245)  100%);
+    font-family: 'Arsenal', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   h1,
@@ -9,15 +14,24 @@ body {
   h4,
   h5,
   h6 {
-    font-family: 'Titillium Web';
+    /* font-family: 'Titillium Web'; */
+    font-family: 'Arsenal', sans-serif;
     font-weight: 100 !important;
   }
 
+  .navbar {
+    /* background:transparent; */
+    /* padding: 1rem 0rem 2rem 0rem; */
+    /* -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 50rem; */
+}
+
   .btn-xl {
     text-transform: uppercase;
-    padding: 1.5rem 2rem;
-    font-size: 0.9rem;
-    font-weight: 200;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    font-weight: 100;
     letter-spacing: 0.1rem;
   }
 
@@ -25,7 +39,7 @@ header.templhead {
     position: relative;
     padding-top: calc(3rem + 42px);
     padding-bottom: 3rem;
-    background: linear-gradient(0deg, rgb(65, 188, 245) 0%, rgb(125, 108, 245) 100%);
+    /* background: linear-gradient(0deg, rgb(65, 188, 245) 0%, rgb(125, 108, 245) 100%); */
 }
 
 header.templhead .templcontent {
@@ -34,13 +48,26 @@ header.templhead .templcontent {
 }
 
 header.templhead .templcontent .templheading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
 header.templhead .templcontent .templsubheading {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
 /* section {
     background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
 } */
+
+
+
+
+@media (min-width: 992px) {
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+  }
+}
