@@ -11,4 +11,4 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^(.*)$ https://www.tbsonline.ge/$1 [L,R=301]
 
-DirectoryIndex index-temp.html
+DirectoryIndex index.html
