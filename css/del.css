@@ -1,19 +1,39 @@
-html {
+/* html {
   height: 100%;
-}
+} */
 
 /* div, form, table {
   outline: 1px solid #3a87ad !important;
-}
-address, blockquote, h1, h2, h3, h4, h5, h6, p, pre {
-  outline: 1px solid #b94a48 !important;
-  padding: 100px;
 } */
 
+/* header, section, footer {
+  outline: 1px dotted blue !important;
+} */
+
+/* address, blockquote, h1, h2, h3, h4, h5, h6, p, pre {
+  outline: 1px solid crimson !important;
+} */
+
+/* .card {
+  background: #fff;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+[class*="row"] {
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+  background: #efefef;
+  border: 1px solid #ddd;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  width: 100%;
+} */
+
+
 body {
-    /* font-family: 'Titillium Web'; */
-    /* background-color:rgb(65, 188, 245); */
-    /* background: linear-gradient(0deg, rgb(65, 188, 245) 0%, rgb(192, 230, 252) 100%); */
     background: linear-gradient(0deg, rgb(192, 230, 252) 0%, rgb(65, 188, 245)  100%);
     background-repeat: no-repeat;
     font-family: 'Arsenal', sans-serif;
@@ -32,13 +52,6 @@ body {
     font-weight: 100 !important;
   }
 
-  .navbar {
-    /* background:transparent; */
-    /* padding: 1rem 0rem 2rem 0rem; */
-    /* -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 50rem; */
-}
 
   .btn-xl {
     text-transform: uppercase;
