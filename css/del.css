@@ -6,11 +6,11 @@
   outline: 1px solid #3a87ad !important;
 } */
 
-/* header, section, footer {
+/* header, section, article, footer {
   outline: 1px dotted blue !important;
-} */
+}
 
-/* address, blockquote, h1, h2, h3, h4, h5, h6, p, pre {
+address, blockquote, h1, h2, h3, h4, h5, h6, p, pre {
   outline: 1px solid crimson !important;
 } */
 
@@ -53,6 +53,23 @@ body {
   }
 
 
+  h1.h1main {
+    color: #bd1e1e;
+  }
+
+  .btn-outline-dark {
+    color: #343a40;
+    background-color: transparent;
+    background-image: none;
+    border-color: #343a40;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
   .btn-xl {
     text-transform: uppercase;
     padding: 0.5rem 1rem;
@@ -85,7 +102,13 @@ header.templhead .templcontent .templsubheading {
     background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
 } */
 
-
+nav.navbar {
+  font-weight: bold;
+font-variant: normal;
+line-height: 2em;
+letter-spacing: 1px;
+border-style: none;
+}
 
 
 @media (min-width: 992px) {
